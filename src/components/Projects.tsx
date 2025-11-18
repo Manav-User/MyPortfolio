@@ -5,7 +5,7 @@ import { ExternalLink, Github } from "lucide-react";
 // Import video assets so Vite/bundler resolves them to public URLs
 import FaceDetectionDemo from "@/assets/Face_detection.mp4";
 import FingerCountingDemo from "@/assets/Finger_counting.mp4";
-import VirtualKeyboardDemo from "@/assets/Virtual_Keyboard.mp4";
+import VirtualKeyboardDemo from "@/assets/Virtual_keyboard.mp4";
 
 const Projects = () => {
   const projects = [
