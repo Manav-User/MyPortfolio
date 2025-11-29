@@ -2,7 +2,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-// Import video assets so Vite/bundler resolves them to public URLs
 import FaceDetectionDemo from "@/assets/Face_detection.mp4";
 import FingerCountingDemo from "@/assets/Finger_counting.mp4";
 import VirtualKeyboardDemo from "@/assets/Virtual_keyboard.mp4";
@@ -30,6 +29,20 @@ const Projects = () => {
       github: "https://github.com/Manav-User/Virtual-Keyboard",
       demo: VirtualKeyboardDemo,
     },
+    {
+      title: "Simon Game",
+      description: "Simple Simon game... This interactive application allows one players to enjoy the classic game directly in their browsers.",
+      tags: ['HTML','CSS' ,'FrontEnd'],
+      github: "https://github.com/Manav-User/Simon-Game",
+      demo: "https://manav-user.github.io/Simon-Game/",
+    },
+    {
+      title: "Tic Tac Toe Game",
+      description: "Simple Tic-Tac-Toe game... This interactive application allows two players to enjoy the classic game directly in their browsers.",
+      tags: ['HTML','CSS' ,'FrontEnd'],
+      github: "https://github.com/Manav-User/Tic-Tac-Toe",
+      demo: "https://manav-user.github.io/Tic-Tac-Toe/",
+    },
   ];
 
   return (
@@ -39,7 +52,7 @@ const Projects = () => {
           Featured <span className="gradient-text">Projects</span>
         </h2>
         <p className="text-center text-muted-foreground mb-12">
-          Some of my recent AI/ML work
+          Some of my recent work
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

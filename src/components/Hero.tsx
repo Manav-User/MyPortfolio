@@ -31,8 +31,7 @@ const Hero = () => {
               IT Student
             </p>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto lg:mx-0 mb-8">
-              Passionate about building intelligent systems that solve real-world problems. 
-              Exploring the frontiers of AIML and robotics.
+              A university student dedicated to solving real-world challenges through technology, with AI/ML and robotics as growing areas of interest.
             </p>
             
             <div className="flex gap-4 justify-center lg:justify-start flex-wrap">
